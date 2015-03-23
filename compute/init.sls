@@ -11,7 +11,7 @@ HP-ManagementComponentPack-repository:
 
 hpacucli:
   pkg.latest:
-    - name: logstash-forwarder
+    - name: hpacucli
     - require:
       - pkgrepo: HP-ManagementComponentPack-repository
 
