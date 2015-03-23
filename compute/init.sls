@@ -5,11 +5,11 @@ hp-ManagementComponentPack-key:
 HP-ManagementComponentPack-repository:
   pkgrepo.managed:
     - humanname: HP ManagementComponentPack repository
-    - name: deb http://downloads.linux.hp.com/SDR/downloads/ManagementComponentPack precise/current non-free
+    - name: deb http://downloads.linux.hp.com/SDR/downloads/ManagementComponentPack trusty/current non-free
     - require:
       - cmd: hp-ManagementComponentPack-key
 
-hpacucli:
+hpssacli:
   pkg.latest:
     - name: hpacucli
     - require:
