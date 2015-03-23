@@ -11,7 +11,7 @@ HP-ManagementComponentPack-repository:
 
 hpssacli:
   pkg.latest:
-    - name: hpacucli
+    - name: hpssacli
     - require:
       - pkgrepo: HP-ManagementComponentPack-repository
 
